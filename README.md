@@ -59,7 +59,7 @@ This feature displays a property image and predicted sales amount based on given
   | Numpy             | Performing mathematical Operations                            |
   | Pandas            | Analysis, cleaning, exploring and manipulation of data        |
   | Scikit Learn      | Modelling                                                     |
-  | Pickle            | Saving model and loading saves model                          |
+  | Pickle            | Saving model and loading saved model                          |
   | Image from PIL    | Loading Image                                                 |
 
 ### Models Trained and Tested
