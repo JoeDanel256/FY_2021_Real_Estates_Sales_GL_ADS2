@@ -14,7 +14,7 @@ st.sidebar.header("Real Estate Sales 2021 GL")
 
 # Load the available data and overview
 
-url="data/real_estate_FY2021_cleaned_project2.csv"
+url="my_data/real_estate_FY2021_cleaned_project2.csv"
 
 
 
@@ -37,7 +37,7 @@ if selection== 'About':
          st.subheader("About App")
          st.markdown('The Office of Policy and Management maintains a listing of all real estate sales with a sales price of $2,000 or greater that occur between October 1 and September 30 of each year.  For each sale record, the file includes; town, property address, date of sale, property type (residential, apartment, commercial, industrial or vacant land), sales price, and property assessment.')
          st.markdown("Data are collected in accordance with Connecticut General Statutes, section 10-261a and 10-261b: https://www.cga.ct.gov/current/pub/chap_172.htm#sec_10-261a and https://www.cga.ct.gov/current/pub/chap_172.htm#sec_10-261b. Annual real estate sales are reported by grand list year (October 1 through September 30 each year). For instance, sales from 2019 GL are from 10/01/2018 through 9/30/2019.")
-         st.markdown("This app provides the snapshot and brief analysis of the Real Estate Sales of 2021 GL, which is an extract from the Real Estates sales 2001 to 2021 GL dataframe. The Real Estates Sales for financial year 2021 start from 1st October 2020 all the way to 30th september 2021")
+         st.markdown("This app provides a snapshot and summary analysis of the Real Estate Sales for financial year 2021 of GL, which is an extract from the Real Estates sales 2001 to 2021 GL dataframe. The Real Estates Sales for financial year 2021 start from 1st October 2020 all the way to 30th september 2021")
 
 if selection== 'Sales Image' :
          st.markdown('Display data')
