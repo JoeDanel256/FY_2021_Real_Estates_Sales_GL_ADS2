@@ -62,6 +62,27 @@ This feature displays a property image and predicted sales amount based on given
   | Pickle            | Saving model and loading saves model                          |
   | Image from PIL    | Loading Image                                                 |
 
+### Models Trained and Tested
+
+Random Forest Regressor. 
+
+It gave me a score of 96.778% on the train set and 76.286% on the test set which turned out to be the best performing model. When i tried hyperparameter tuning it did not perform any better.
+
+Bagging Regressor
+
+This model gave me a 95.6% score on the train set and 74.3% on the test set which is slightly less the performance of the rando forest regressor.
+
+Kernel Ridge Regressor
+
+The Kernel Ridge Regressor gave me a memory error.
+
+Linear regression model
+
+Before normalizing the dataset, it gave me a train score of 73.8% and a test score 72.2%.
+
+In conclusion I chose to work with the random forest regressor. 
+
+
 ### Challenges faced
 
 My note book crashed thrice during the EDA and Preprocessing stages.
@@ -69,6 +90,8 @@ My note book crashed thrice during the EDA and Preprocessing stages.
 I hard to learn working with libraries am not familiar with the hard way. 
 
 Being the first time in an online class I had to learn to be independent unlike the other classes where we would count on colleagues for discussions.
+
+App deployment. During app deployment, i kept on recieving error which kind of got me frustrated. On researching i learned that i had to keep adjusting my reqirements.txt inluding upgrading and downgrading some libraries. Thanks to God it worked. 
 
 Difficulty in accessing data from various organizations around for practicle learning
 Limited resources and internet.
