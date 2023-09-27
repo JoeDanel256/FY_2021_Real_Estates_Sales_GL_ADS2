@@ -108,7 +108,7 @@ if selection== 'Data Analysis':
                 st.write(data_Rtype)
 
 if selection== 'Machine Learning':
-          model= pickle.load(open('my_first_project_model3.pkl','rb'))
+          model= pickle.load(open('my_first_project_model.pkl','rb'))
           st.title('Property Sale Amount Prediction Web App')
           st.sidebar.header('Property Data')
           image=Image.open('Property.jpg')
