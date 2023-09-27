@@ -3,6 +3,6 @@ pandas
 numpy
 plotly
 pickle-mixin
-
-
+pickleshare 
+scikit-learn
 
